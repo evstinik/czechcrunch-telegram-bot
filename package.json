@@ -1,0 +1,20 @@
+{
+  "name": "czechcrunch-telegram-bot",
+  "version": "1.0.0",
+  "description": "Scap cc.cz and post it to Telegram channel",
+  "main": "post.js",
+  "author": "Nikita Evstigneev",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^16.0.0",
+    "node-fetch": "^3.2.3",
+    "node-telegram-bot-api": "^0.56.0"
+  },
+  "scripts": {
+    "post": "node post.js",
+    "scrap": "node test_scrapper.js"
+  }
+}
